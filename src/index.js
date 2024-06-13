@@ -13,6 +13,8 @@ const app = express();
 const jwtSecret = process.env.JWT_SECRET;
 
 const port = process.env.PORT || 3000;
+require('dotenv').config();
+
 
 
 
@@ -43,4 +45,3 @@ app.use(router);
 
 
 
-  
